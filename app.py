@@ -1,5 +1,4 @@
 import redis
-import json
 import os
 from flask import Flask
 
