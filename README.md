@@ -8,3 +8,4 @@
 
 Запустить команды sudo docker-compose build, docker-compose up.
 
+Запустить 127.0.0.1:5000/<какое-то число>
