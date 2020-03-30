@@ -17,7 +17,7 @@ def fibo(x):
 def hello():
 	return "Hello peoples!"
 
-@app.route('/fibo_num/<int:n>')
+@app.route('/<int:n>')
 def memo(n):
 	k = str(n)
 	result = redis_client.get(k)
